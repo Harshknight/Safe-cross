@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Safe Cross</string>
+    <string name="open">Open </string>
+    <string name="close">Close</string>
+    <string name="sign_In">623420849777-giol0b52u8krup3rlmes8ena0bckbo52.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

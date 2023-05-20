@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools ="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="450px" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/outline_email_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/black"
+        android:hint="Email"
+        android:paddingStart="10dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="First name"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="text"
+        android:layout_marginStart="20dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="390dp"
+        android:id="@+id/first_name"
+        android:textColorHint="@color/black"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Last name"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textCursorDrawable="@null"
+        android:textColorHint="@color/black"
+        android:drawablePadding="5dp"
+        android:paddingStart="10dp"
+        android:inputType="text"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
+        android:id="@+id/last_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:paddingStart="10dp"
+        android:textCursorDrawable="@null"
+        android:drawableTint="@color/black"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/outline_lock_24"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="520dp"
+        android:id="@+id/Password"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:id="@+id/create"
+        android:textAllCaps="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="600dp"
+        android:textColor="#EEFF41"
+        android:textSize="20dp"
+        android:onClick="create"
+        android:background="@drawable/round_back_security"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="sans-serif"
+        android:text="Check existing users over"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/database"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="655dp"
+        android:fontFamily="sans-serif-medium"
+        android:clickable="true"
+        android:text=" here."
+        android:layout_toEndOf="@+id/data"
+        android:textColor="@color/notification"
+        android:textSize="15sp"
+        android:onClick="user"
+        android:focusable="true" />
+
+
+
+</RelativeLayout>

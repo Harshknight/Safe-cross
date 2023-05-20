@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optNotes"
+        android:title="Notes"
+        android:icon="@drawable/ic_baseline_speaker_notes_24"/>
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/optSettings"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item android:title="Report">
+        <menu>
+
+            <item
+                android:id="@+id/incidentReport"
+                android:title="Incident Report"
+                android:icon="@drawable/baseline_login_24"/>
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+
+            <item
+                android:id="@+id/optShare"
+                android:title="Share"
+                android:icon="@drawable/baseline_share_24"/>
+
+            <item
+                android:id="@+id/optRate"
+                android:title="Rate Us"
+                android:icon="@drawable/baseline_rate_review_24"/>
+        </menu>
+    </item>
+</menu>

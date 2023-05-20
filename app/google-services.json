@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "623420849777",
+    "project_id": "safe-cross-1780b",
+    "storage_bucket": "safe-cross-1780b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623420849777:android:eebd3f2b6ad443a57ea5d0",
+        "android_client_info": {
+          "package_name": "com.example.loginuidesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623420849777-giol0b52u8krup3rlmes8ena0bckbo52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRhjjLtcRFFN1YAryf0jcJL5XLhIECqQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623420849777-giol0b52u8krup3rlmes8ena0bckbo52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623420849777:android:146343bf3f8407967ea5d0",
+        "android_client_info": {
+          "package_name": "com.example.safecross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623420849777-g3mt3t1vl3j7c1e2h4ou0n9die6obns7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safecross",
+            "certificate_hash": "da53bae9c4d500975ec1bc155dfd07ec0c681c0b"
+          }
+        },
+        {
+          "client_id": "623420849777-giol0b52u8krup3rlmes8ena0bckbo52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRhjjLtcRFFN1YAryf0jcJL5XLhIECqQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623420849777-giol0b52u8krup3rlmes8ena0bckbo52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
